@@ -43,7 +43,7 @@ $(OUT_DIR)/draft.pdf: $(OUT_DIR)/paper.pdf $(PAPER_DIR)/paper.tex
 
 $(OUT_DIR)/index.html: $(OUT_DIR)/paper.pdf $(OUT_DIR)/ar5iv-bindings
 	latexmlc \
-		--preload=[nobibtex,ids,localrawstyles,nobreakuntex,magnify=1.8,zoomout=1.8,tokenlimit=249999999,iflimit=3599999,absorblimit=1299999,pushbacklimit=599999]latexml.sty \
+		--preload=[ids,localrawstyles,nobreakuntex,magnify=1.8,zoomout=1.8,tokenlimit=249999999,iflimit=3599999,absorblimit=1299999,pushbacklimit=599999]latexml.sty \
 		--preload=ar5iv.sty \
 		--path=$(OUT_DIR)/ar5iv-bindings/bindings \
 		--path=$(OUT_DIR)/ar5iv-bindings/supported_originals \
