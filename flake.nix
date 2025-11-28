@@ -6,7 +6,7 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-    outputs =
+  outputs =
     {
       self,
       nixpkgs,
@@ -52,16 +52,16 @@
         buildInputs = [
           tex
           ar5iv-bindings
-        ] ++ misc;
+        ]
+        ++ misc;
 
-        nixfmt = nixpkgs.legacyPackages.${system}.nixfmt-rfc-style;
+        nixfmt = pkgs.nixfmt-rfc-style;
 
-        devInputs =
-          [
-            nixfmt
-            pkgs.tex-fmt
-          ]
-          ++ buildInputs;
+        devInputs = [
+          nixfmt
+          pkgs.tex-fmt
+        ]
+        ++ buildInputs;
 
       in
       rec {
@@ -90,7 +90,7 @@
             installPhase = ''
               runHook preInstall
               mkdir -p $out
-              cp -r out $out
+              cp -r out/* $out
               runHook postInstall
             '';
           };
