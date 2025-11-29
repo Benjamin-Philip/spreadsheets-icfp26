@@ -1,0 +1,46 @@
+name: Nix CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  check:
+    name: Check Flake
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - run: make nix-check
+
+  formatted:
+    name: Check Formatted
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - name: Setup devShell
+        run: nix develop
+      - run: nix develop --command make nix-formatted
+
+  builds:
+    name: Check Builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - run: nix build
+
+  devshell:
+    name: Check devShell
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - name: Setup devShell
+        run: nix develop
+      - run: nix develop --command echo test
