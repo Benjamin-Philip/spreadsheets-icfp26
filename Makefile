@@ -7,7 +7,6 @@
 PAPER_DIR=paper
 OUT_DIR=out
 AUX_DIR=$(OUT_DIR)/aux
-EMPTY_DIR=$(OUT_DIR)/empty
 DEPS_FILE=$(OUT_DIR)/.deps
 
 LATEXMK = latexmk -pdflua -outdir=$(OUT_DIR) \
@@ -70,6 +69,9 @@ synctex: $(OUT_DIR)/paper.pdf
 clean:
 	-rm -rf $(OUT_DIR)
 
+.PHONY: format
+format: latex-format nix-format
+
 #########
 # LaTeX #
 #########
@@ -77,11 +79,13 @@ clean:
 .PHONY: latex
 latex: latex-formatted
 
+.PHONY: latex-format
+latex-format:
+	tex-fmt -r $(PAPER_DIR)
+
 .PHONY: latex-formatted
-latex-formatted:  **/*.tex
-	tex-fmt -c $^
-	@mkdir -p $(EMPTY_DIR)
-	@touch $@
+latex-formatted:
+	tex-fmt -rc $(PAPER_DIR)
 
 .PHONY: latex-pdf
 latex-pdf: $(OUT_DIR)/paper.pdf
@@ -100,10 +104,12 @@ nix: nix-check nix-formatted
 nix-check:
 	nix flake check --all-systems
 
+.PHONY: nix-format
+nix-format:
+	nixfmt flake.nix
+
 .PHONY: nix-formatted
 nix-formatted: flake.nix
 	nixfmt -c flake.nix
-	@mkdir -p $(EMPTY_DIR)
-	@touch $@
 
 # end
