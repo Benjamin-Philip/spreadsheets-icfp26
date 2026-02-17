@@ -111,12 +111,15 @@ other initiatives.
 **** TODO [[Documenting Spreadsheets][Documenting Spreadsheets]]
 **** TODO [[https://arxiv.org/abs/1011.1021][What's the point of documentation?]]
 **** TODO [[https://arxiv.org/abs/0908.1187][Documenting Spreadsheets with Pseudo-Code: an Exercise with Cash-Flow and Loans]]
-*** TODO [0/6] Spreadsheet Computation
+*** TODO [1/7] Spreadsheet Computation
 **** TODO [[https://web.engr.oregonstate.edu/~erwig/papers/SpreadsheetProgramming_ECSE09.pdf][Spreadsheets Programming]]
 **** TODO [[http://dl.acm.org/citation.cfm?id=1194878][Spreadsheet functional programming]]
 **** TODO [[https://dl.acm.org/doi/10.5555/968486.968487][Forms/3: A first-order visual language to explore the boundaries of the spreadsheet paradigm]]
 **** TODO [[https://dl.acm.org/doi/10.1145/1370847.1370867][Implementing function spreadsheets]]
 **** TODO [[https://www.rittmanmead.com/blog/2005/10/looking-back-at-lotus-improv/][Looking Back at Lotus Improv]]
 **** TODO [[https://cubicle.readthedocs.io/en/latest/intro.html][Cubicle]]
+**** DONE [[https://arxiv.org/abs/0801.3690][Ensuring Spreadsheet Integrity with Model Master]]
+Introduces the Model Master (MM) DSL. Details the DSL, compiler and decompiler
+designs. Has some interesting example spreadsheets at the appendix.
 ** TODO [0/0] Software Verification
 ** TODO [0/0] DSLs
