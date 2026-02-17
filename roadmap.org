@@ -5,7 +5,7 @@
 were first found there.
 
 *** TODO [0/5] Errors and Risks
-**** TODO [1/7] General
+**** TODO [2/8] General
 ***** DONE [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
 ****** What We Know
 - Spreadsheets contain errors
@@ -26,6 +26,8 @@ were first found there.
   - In software, testing comprises 1/3 of development. In spreadsheets, testing is rare
   - Group code inspection is the only experimentally proven way to effectively inspect code
   - This expensive, exhausting and can poor cost-yield tradeoffs (especially in tax auditing)
+***** DONE [[https://arxiv.org/abs/0809.3613][Revisiting the Panko-Halverson Taxonomy of Spreadsheet Errors]]
+Just view the figures at the end.
 ***** TODO [[https://arxiv.org/abs/0804.0797][Sarbanes-Oxley: What About all the Spreadsheets?]]
 ***** TODO [[https://arxiv.org/abs/0801.0715][Impact of Errors in Operational Spreadsheets]]
 ***** TODO [[https://arxiv.org/abs/0712.2594][Stop That Subversive Spreadsheet!]]
