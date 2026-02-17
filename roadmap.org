@@ -67,9 +67,9 @@ Reasons cited for poor practice:
 Details the formation of EuSpRig, the problems it aims to solve, various
 development methodologies and auditing software it wishes to encourage, and
 other initiatives.
-***** TODO [[https://sheetcast.com/articles/ten-memorable-excel-disasters][Ten Memorable Excel Disasters]]
-***** TODO [[https://eusprig.org/research-info/horror-stories/][EuSPRIG Horror Stories]]
-***** TODO [[https://panko.com/ssr/Ray'sPublications.html][Raymond Panko's Spreadsheet Publications]]
+***** WAIT [[https://sheetcast.com/articles/ten-memorable-excel-disasters][Ten Memorable Excel Disasters]]
+***** WAIT [[https://eusprig.org/research-info/horror-stories/][EuSPRIG Horror Stories]]
+***** WAIT [[https://panko.com/ssr/Ray'sPublications.html][Raymond Panko's Spreadsheet Publications]]
 **** TODO [0/3] Human Error
 ***** TODO [[https://arxiv.org/abs/0801.0715][Impact of Errors in Operational Spreadsheets]]
 ***** TODO [[https://arxiv.org/abs/0806.3536][In Pursuit of Spreadsheet Excellence]]
