@@ -5,7 +5,7 @@
 were first found there.
 
 *** TODO [0/5] Errors and Risks
-**** TODO [2/8] General
+**** TODO [3/8] General
 ***** DONE [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
 ****** What We Know
 - Spreadsheets contain errors
@@ -31,7 +31,38 @@ Just view the figures at the end.
 ***** HOLD [[https://arxiv.org/abs/0804.0797][Sarbanes-Oxley: What About all the Spreadsheets?]]
 Mainly talks about legal frameworks introduced after the Sarbanes-Oxley
 Act was passed, and various testing, error and fraud control methodologies.
-***** TODO [[https://arxiv.org/abs/0801.0715][Impact of Errors in Operational Spreadsheets]]
+***** DONE [[https://arxiv.org/abs/0801.0715][Impact of Errors in Operational Spreadsheets]]
+Review of real-world spreadsheets in 5 organisations.
+
+Findings:
+
+- Some organizations have spreadsheets that are essentially error-free.
+- Within a single organization, spreadsheet practice can range from excellent to
+  poor.
+- Some organizations use spreadsheets that are rife with errors and some of
+  these errors are of substantial magnitude.
+- Many errors have zero impact, or impact unimportant calculations.
+- There is little correlation between the importance of the application or the
+  risk involved and the quality of the spreadsheet.
+- Few spreadsheets contain errors that, in the eyes of their developers, would
+  destroy their usefulness.
+
+Symptoms of poor spreadsheet practice:
+
+- Chaotic Design
+- Embedded numbers
+- Special cases
+- Non-repeating structures
+- Complex-formulas
+
+Reasons cited for poor practice:
+
+- Time pressure
+- Organic design
+- Changing specs
+- Lack of testing
+- Lack of relevant knowledge and skills
+
 ***** TODO [[https://arxiv.org/abs/0712.2594][Stop That Subversive Spreadsheet!]]
 ***** TODO [[https://sheetcast.com/articles/ten-memorable-excel-disasters][Ten Memorable Excel Disasters]]
 ***** TODO [[https://eusprig.org/research-info/horror-stories/][EuSPRIG Horror Stories]]
