@@ -5,7 +5,7 @@
 were first found there.
 
 *** TODO [0/5] Errors and Risks
-**** TODO [3/8] General
+**** TODO [4/8] General
 ***** DONE [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
 ****** What We Know
 - Spreadsheets contain errors
@@ -63,7 +63,10 @@ Reasons cited for poor practice:
 - Lack of testing
 - Lack of relevant knowledge and skills
 
-***** TODO [[https://arxiv.org/abs/0712.2594][Stop That Subversive Spreadsheet!]]
+***** DONE [[https://arxiv.org/abs/0712.2594][Stop That Subversive Spreadsheet!]]
+Details the formation of EuSpRig, the problems it aims to solve, various
+development methodologies and auditing software it wishes to encourage, and
+other initiatives.
 ***** TODO [[https://sheetcast.com/articles/ten-memorable-excel-disasters][Ten Memorable Excel Disasters]]
 ***** TODO [[https://eusprig.org/research-info/horror-stories/][EuSPRIG Horror Stories]]
 ***** TODO [[https://panko.com/ssr/Ray'sPublications.html][Raymond Panko's Spreadsheet Publications]]
