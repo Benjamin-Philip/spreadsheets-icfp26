@@ -5,8 +5,27 @@
 were first found there.
 
 *** TODO [0/5] Errors and Risks
-**** TODO [0/7] General
-***** TODO [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
+**** TODO [1/7] General
+***** DONE [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
+****** What We Know
+- Spreadsheets contain errors
+  - Across experiments, 51% of spreadsheets contained errors
+  - Cell Error Rates were at least 1-2%
+- Errors are varied
+  - They are like "multiple poisons" - each 100% lethal
+  - Quantitatively, they can be mechanical, logical or by omissions
+  - Errors can be introduced at any stage of the lifecyle
+- Developers are overconfident and Policies Lax - no matter the dev's experience
+****** What We Can Think We Can Do
+- Cell protection of formula cells to prevent hardwiring errors
+- Re-Keying data to prevent data entry errors
+- Examining results for "reasonableness" does not work
+- Introduce good development practices? - needs to be proven "safe and effective"
+- Error Discovery Software - needs to be proven "safe and effective"
+- Code Inspection
+  - In software, testing comprises 1/3 of development. In spreadsheets, testing is rare
+  - Group code inspection is the only experimentally proven way to effectively inspect code
+  - This expensive, exhausting and can poor cost-yield tradeoffs (especially in tax auditing)
 ***** TODO [[https://arxiv.org/abs/0804.0797][Sarbanes-Oxley: What About all the Spreadsheets?]]
 ***** TODO [[https://arxiv.org/abs/0801.0715][Impact of Errors in Operational Spreadsheets]]
 ***** TODO [[https://arxiv.org/abs/0712.2594][Stop That Subversive Spreadsheet!]]
