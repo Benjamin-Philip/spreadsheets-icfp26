@@ -1,0 +1,65 @@
+#+title: Roadmap
+* TODO [0/3] Literature Review
+** TODO [0/6] Spreadsheets
+[[https://eusprig.org/research-info/research-and-best-practice/][EuSprig's Research and Best Practice]] is a great resource. Many references here
+were first found there.
+
+*** TODO [0/5] Errors and Risks
+**** TODO [0/7] General
+***** TODO [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
+***** TODO [[https://arxiv.org/abs/0804.0797][Sarbanes-Oxley: What About all the Spreadsheets?]]
+***** TODO [[https://arxiv.org/abs/0801.0715][Impact of Errors in Operational Spreadsheets]]
+***** TODO [[https://arxiv.org/abs/0712.2594][Stop That Subversive Spreadsheet!]]
+***** TODO [[https://sheetcast.com/articles/ten-memorable-excel-disasters][Ten Memorable Excel Disasters]]
+***** TODO [[https://eusprig.org/research-info/horror-stories/][EuSPRIG Horror Stories]]
+***** TODO [[https://panko.com/ssr/Ray'sPublications.html][Raymond Panko's Spreadsheet Publications]]
+**** TODO [0/3] Human Error
+***** TODO [[https://arxiv.org/abs/0801.0715][Impact of Errors in Operational Spreadsheets]]
+***** TODO [[https://arxiv.org/abs/0806.3536][In Pursuit of Spreadsheet Excellence]]
+***** TODO [[https://kilthub.cmu.edu/articles/journal_contribution/Spreadsheet_Errors_and_Decision_Making_Evidence_from_Field_Interviews/6471929/1/files/11901410.pdf][Spreadsheet Errors and Decision Making: Evidence from Field Interviews]]
+**** TODO [0/2] Fraud
+***** TODO [[https://arxiv.org/abs/0801.4268][Protecting Spreadsheets Against Fraud]]
+***** TODO [[https://arxiv.org/abs/0910.2048][The Role of Spreadsheets in the Allied Irish Bank / Allfirst Currency Trading Fraud]]
+**** TODO [0/1] Interpretation
+***** TODO [[https://arxiv.org/abs/0801.1856v1][Interpretation as a factor in understanding flawed spreadsheets]]
+**** TODO [0/2] Archiving
+***** TODO [[https://arxiv.org/abs/0803.3231v1][Archiving: The Overlooked Spreadsheet Risk]]
+***** TODO [[https://arxiv.org/abs/0908.4420][Spreadsheets and the Financial Collapse]]
+*** TODO [0/12] Best Practices
+**** TODO [[https://www.icaew.com/technical/technology/excel/how-to-review-a-spreadsheet][How to review a spreadsheet]]
+**** TODO [[https://www.icaew.com/technical/information-technology/excel/spreadsheet-competency-framework][Spreadsheet Competency Framework]]
+**** TODO [[https://www.icaew.com/technical/information-technology/excel/twenty-principles][Twenty principles of good spreadsheet practice]]
+**** TODO [[https://arxiv.org/abs/0711.0538][Spreadsheet Engineering: A Research Framework]]
+**** TODO [[https://arxiv.org/abs/1008.4174v1][Spreadsheets Grow Up: Three Spreadsheet Engineering Methodologies for Large Financial Planning Models]]
+**** TODO [[https://eusprig.org/wp-content/uploads/Spreadsheet-Auditing-for-Free-handouts.pdf][Spreadsheet Auditing for Free handouts]]
+**** TODO [[https://eusprig.org/wp-content/uploads/hicss33-butler-evader.pdf][Is this spreadsheet a tax evader?]]
+**** TODO [[http://arxiv.org/abs/1301.5878][How do you know your spreadsheet is right?]]
+**** TODO [[https://eusprig.org/wp-content/uploads/smbp.pdf][Spreadsheet Modelling Best Practice]]
+**** TODO [[http://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.78.pdf][Software Defect Reduction Top 10 List]]
+**** TODO [[http://arxiv.org/abs/1009.5705][Spreadsheets - the Good, the Bad and the Downright Ugly]]
+**** TODO [[https://skills.it.ox.ac.uk/files/DA007_CourseBook_Spreadsheets_GoodDesign.pdf][Data analysis: Good practice in spreadsheet design]]
+*** TODO [0/7] Testing
+**** TODO [[https://arxiv.org/abs/0712.0109v1][Recommended Practices for Spreadsheet Testing]]
+**** TODO [[https://arxiv.org/abs/0807.3187v1][When, why and how to test spreadsheets]]
+**** TODO [[https://arxiv.org/abs/0808.2045][Correctness is not enough]]
+**** TODO [[https://arxiv.org/abs/0712.2591v1][A Typical Model Audit Approach: Spreadsheet Audit Methodologies in the City of London]]
+**** TODO [[https://arxiv.org/abs/0801.4775][Spreadsheet Assurance by "Control Around" is a Viable Alternative to the Traditional Approach]]
+**** TODO [[https://arxiv.org/abs/0803.0015][EuSpRIG 2006 Commercial Spreadsheet Review]]
+**** TODO [[https://cs.brown.edu/~sk/Publications/Papers/Published/asknf-valid-unit-sprdsht/paper.pdf][Validating the Unit Correctness of Spreadsheet Programs]]
+*** TODO [0/3] Design
+**** TODO [[New Guidelines For Spreadsheets][New Guidelines For Spreadsheets]]
+**** TODO [[https://arxiv.org/abs/0908.0930][Some Spreadsheet Poka-Yoke]]
+**** TODO [[https://arxiv.org/abs/1009.1412v1][Spreadsheet Refactoring]]
+*** TODO [0/3] Documentation
+**** TODO [[Documenting Spreadsheets][Documenting Spreadsheets]]
+**** TODO [[https://arxiv.org/abs/1011.1021][What's the point of documentation?]]
+**** TODO [[https://arxiv.org/abs/0908.1187][Documenting Spreadsheets with Pseudo-Code: an Exercise with Cash-Flow and Loans]]
+*** TODO [0/6] Spreadsheet Computation
+**** TODO [[https://web.engr.oregonstate.edu/~erwig/papers/SpreadsheetProgramming_ECSE09.pdf][Spreadsheets Programming]]
+**** TODO [[http://dl.acm.org/citation.cfm?id=1194878][Spreadsheet functional programming]]
+**** TODO [[https://dl.acm.org/doi/10.5555/968486.968487][Forms/3: A first-order visual language to explore the boundaries of the spreadsheet paradigm]]
+**** TODO [[https://dl.acm.org/doi/10.1145/1370847.1370867][Implementing function spreadsheets]]
+**** TODO [[https://www.rittmanmead.com/blog/2005/10/looking-back-at-lotus-improv/][Looking Back at Lotus Improv]]
+**** TODO [[https://cubicle.readthedocs.io/en/latest/intro.html][Cubicle]]
+** TODO [0/0] Software Verification
+** TODO [0/0] DSLs
