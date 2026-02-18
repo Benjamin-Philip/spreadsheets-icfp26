@@ -70,14 +70,32 @@ other initiatives.
 ***** WAIT [[https://sheetcast.com/articles/ten-memorable-excel-disasters][Ten Memorable Excel Disasters]]
 ***** WAIT [[https://eusprig.org/research-info/horror-stories/][EuSPRIG Horror Stories]]
 ***** WAIT [[https://panko.com/ssr/Ray'sPublications.html][Raymond Panko's Spreadsheet Publications]]
-**** TODO [1/2] Human Error
+**** TODO [2/2] Human Error
 ***** DONE [[https://arxiv.org/abs/0806.3536][In Pursuit of Spreadsheet Excellence]]
 Studies the chance of perfect spreadsheets, as observed with organisation 5 in
 "Impact of Errors in Operations Spreadsheets". Statistically proves that org 5
 used some technique to prevent errors. Finally, it introduces the "Clean Sheet
 Test" to check if another organisation uses any effective practices to prevent
 errors.
-***** TODO [[https://kilthub.cmu.edu/articles/journal_contribution/Spreadsheet_Errors_and_Decision_Making_Evidence_from_Field_Interviews/6471929/1/files/11901410.pdf][Spreadsheet Errors and Decision Making: Evidence from Field Interviews]]
+***** DONE [[https://kilthub.cmu.edu/articles/journal_contribution/Spreadsheet_Errors_and_Decision_Making_Evidence_from_Field_Interviews/6471929/1/files/11901410.pdf][Spreadsheet Errors and Decision Making: Evidence from Field Interviews]]
+Interviews spreadsheet users about errors and decision making based on
+spreadsheet results. Found that:
+
+- Spreadsheets frequently inform decisions and frequently have errors
+- Majority of responders cited instances of this and viewed it seriously
+- A non-significant majority found it non-serious.
+- Three alternative but not mutually-exclusive explanations were found:
+  - Informal quality control methods work reliably for the worst errors.
+  - Some spreadsheets are used for various types of information processing, but
+    don't inform specific strategic decisions.
+  - Even when large errors go undetected, spreadsheets inform but don't drive
+    decisions.
+- Paper had 3 important results:
+  - Field interviews contribute interesting insights, and further research has
+    value.
+  - Spreadsheets are used for diverse purposes, and not all spreadsheet analysis
+    is closely connected to decision making.
+  - Research should focus on the final analysis as opposed to the spreadsheets.
 **** TODO [0/2] Fraud
 ***** TODO [[https://arxiv.org/abs/0801.4268][Protecting Spreadsheets Against Fraud]]
 ***** TODO [[https://arxiv.org/abs/0910.2048][The Role of Spreadsheets in the Allied Irish Bank / Allfirst Currency Trading Fraud]]
