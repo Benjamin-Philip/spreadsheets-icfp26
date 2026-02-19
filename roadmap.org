@@ -4,7 +4,7 @@
 [[https://eusprig.org/research-info/research-and-best-practice/][EuSprig's Research and Best Practice]] is a great resource. Many references here
 were first found there.
 
-*** TODO [1/5] Errors and Risks
+*** TODO [2/5] Errors and Risks
 **** TODO [4/8] General
 ***** DONE [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
 ****** What We Know
@@ -70,7 +70,7 @@ other initiatives.
 ***** WAIT [[https://sheetcast.com/articles/ten-memorable-excel-disasters][Ten Memorable Excel Disasters]]
 ***** WAIT [[https://eusprig.org/research-info/horror-stories/][EuSPRIG Horror Stories]]
 ***** WAIT [[https://panko.com/ssr/Ray'sPublications.html][Raymond Panko's Spreadsheet Publications]]
-**** TODO [2/2] Human Error
+**** DONE [2/2] Human Error
 ***** DONE [[https://arxiv.org/abs/0806.3536][In Pursuit of Spreadsheet Excellence]]
 Studies the chance of perfect spreadsheets, as observed with organisation 5 in
 "Impact of Errors in Operations Spreadsheets". Statistically proves that org 5
