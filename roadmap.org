@@ -4,7 +4,7 @@
 [[https://eusprig.org/research-info/research-and-best-practice/][EuSprig's Research and Best Practice]] is a great resource. Many references here
 were first found there.
 
-*** TODO [0/5] Errors and Risks
+*** TODO [1/5] Errors and Risks
 **** TODO [4/8] General
 ***** DONE [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
 ****** What We Know
@@ -96,7 +96,7 @@ spreadsheet results. Found that:
   - Spreadsheets are used for diverse purposes, and not all spreadsheet analysis
     is closely connected to decision making.
   - Research should focus on the final analysis as opposed to the spreadsheets.
-**** TODO [1/2] Fraud
+**** DONE [2/2] Fraud
 ***** DONE [[https://arxiv.org/abs/0801.4268][Protecting Spreadsheets Against Fraud]]
 Software Development is generally a multi-person effort, while Spreadsheet
 Development is typically a single-person process. This makes controlling or
@@ -125,7 +125,14 @@ Proposes 4 techniques to protect against fraud:
 ****** Authentification
 - Hash the program portion to prevent unauthorized changes
 - Requires strong physical separation of data from code
-***** TODO [[https://arxiv.org/abs/0910.2048][The Role of Spreadsheets in the Allied Irish Bank / Allfirst Currency Trading Fraud]]
+***** DONE [[https://arxiv.org/abs/0910.2048][The Role of Spreadsheets in the Allied Irish Bank / Allfirst Currency Trading Fraud]]
+Two areas of fraud:
+
+- Value at Risk: fake transactions entered
+- Foreign Exchange Rates: Yen and Euro rates were linked to data in Rusnak's
+  personal computer instead of Reuters (the original source)
+
+In essence, this is data fraud.
 **** TODO [0/1] Interpretation
 ***** TODO [[https://arxiv.org/abs/0801.1856v1][Interpretation as a factor in understanding flawed spreadsheets]]
 **** TODO [0/2] Archiving
