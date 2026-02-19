@@ -140,8 +140,10 @@ Paper about teaching students spreadsheet development, interpretation and risks.
 - Spreadsheets have limitations in the development of complex business models.
 - Models tend to contain deliberate or unintended biases, and consumers accept these due to an developer's "expert" label
 - Bunch of teaching stuff that irrelevant for our purposes
-**** TODO [0/2] Archiving
-***** TODO [[https://arxiv.org/abs/0803.3231v1][Archiving: The Overlooked Spreadsheet Risk]]
+**** TODO [1/2] Archiving
+***** DONE [[https://arxiv.org/abs/0803.3231v1][Archiving: The Overlooked Spreadsheet Risk]]
+Talks about records management in the post Sarbanes-Oxley world. Contains many
+references to the Jamaican Financial Crisis. 
 ***** TODO [[https://arxiv.org/abs/0908.4420][Spreadsheets and the Financial Collapse]]
 *** TODO [0/12] Best Practices
 **** TODO [[https://www.icaew.com/technical/technology/excel/how-to-review-a-spreadsheet][How to review a spreadsheet]]
