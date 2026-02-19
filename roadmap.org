@@ -4,7 +4,7 @@
 [[https://eusprig.org/research-info/research-and-best-practice/][EuSprig's Research and Best Practice]] is a great resource. Many references here
 were first found there.
 
-*** TODO [3/5] Errors and Risks
+*** TODO [4/5] Errors and Risks
 **** TODO [4/8] General
 ***** DONE [[https://arxiv.org/abs/0802.3457][Spreadsheet Errors: What We Know. What We Think We Can Do]]
 ****** What We Know
@@ -140,11 +140,20 @@ Paper about teaching students spreadsheet development, interpretation and risks.
 - Spreadsheets have limitations in the development of complex business models.
 - Models tend to contain deliberate or unintended biases, and consumers accept these due to an developer's "expert" label
 - Bunch of teaching stuff that irrelevant for our purposes
-**** TODO [1/2] Archiving
+**** DONE [2/2] Archiving
 ***** DONE [[https://arxiv.org/abs/0803.3231v1][Archiving: The Overlooked Spreadsheet Risk]]
 Talks about records management in the post Sarbanes-Oxley world. Contains many
 references to the Jamaican Financial Crisis. 
-***** TODO [[https://arxiv.org/abs/0908.4420][Spreadsheets and the Financial Collapse]]
+***** DONE [[https://arxiv.org/abs/0908.4420][Spreadsheets and the Financial Collapse]]
+Talks about the role of spreadsheets in the global financial system, and the risks of financial collapse. Key conclusions:
+
+- Large research base on spreadsheet risks
+- Spreadsheets are integral to the function of the global financial system
+- Catastrophic collapse due to untested spreadsheets was predicted several years
+  ago
+- Jamaican banking collapse was driven partly by use and abuse of spreadsheets
+- The Credit Derivatives Market, which played a significant role in the 2008
+  financial crisis, was particularly reliant on spreadsheets
 *** TODO [0/12] Best Practices
 **** TODO [[https://www.icaew.com/technical/technology/excel/how-to-review-a-spreadsheet][How to review a spreadsheet]]
 **** TODO [[https://www.icaew.com/technical/information-technology/excel/spreadsheet-competency-framework][Spreadsheet Competency Framework]]
