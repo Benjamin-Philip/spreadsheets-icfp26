@@ -183,14 +183,19 @@ Talks about the role of spreadsheets in the global financial system, and the ris
 **** TODO [[Documenting Spreadsheets][Documenting Spreadsheets]]
 **** TODO [[https://arxiv.org/abs/1011.1021][What's the point of documentation?]]
 **** TODO [[https://arxiv.org/abs/0908.1187][Documenting Spreadsheets with Pseudo-Code: an Exercise with Cash-Flow and Loans]]
-*** TODO [3/7] Spreadsheet Computation
+*** TODO [4/8] Spreadsheet Computation
 **** TODO [[https://web.engr.oregonstate.edu/~erwig/papers/SpreadsheetProgramming_ECSE09.pdf][Spreadsheets Programming]]
 **** DONE [[http://dl.acm.org/citation.cfm?id=1194878][Spreadsheet functional programming]]
 Presents Haskell-Excel inter-op as an alternative to spreadsheet programming
 languages or Excel Lambda functions. Has references worth reading.
 **** TODO [[https://dl.acm.org/doi/10.5555/968486.968487][Forms/3: A first-order visual language to explore the boundaries of the spreadsheet paradigm]]
+**** DONE [[https://dl.acm.org/doi/10.1145/944705.944721][A user-centred approach to functions in Excel]]
+This paper introduces user-defined functions to Excel. It also makes use of
+"Cognitive Dimensions of Notations" and "Attention Investment model of
+abstraction use" to inform design decisions.
 **** DONE [[https://dl.acm.org/doi/10.1145/1370847.1370867][Implementing function spreadsheets]]
-Implements functions for spreadsheets.
+Implements functions for spreadsheets, based on Peyton Jones, Blackwell, and
+Burnett's work in "A User-Centred Approach to Excel".
 **** TODO [[https://www.rittmanmead.com/blog/2005/10/looking-back-at-lotus-improv/][Looking Back at Lotus Improv]]
 **** TODO [[https://cubicle.readthedocs.io/en/latest/intro.html][Cubicle]]
 **** DONE [[https://arxiv.org/abs/0801.3690][Ensuring Spreadsheet Integrity with Model Master]]
