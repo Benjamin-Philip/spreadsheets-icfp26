@@ -96,8 +96,35 @@ spreadsheet results. Found that:
   - Spreadsheets are used for diverse purposes, and not all spreadsheet analysis
     is closely connected to decision making.
   - Research should focus on the final analysis as opposed to the spreadsheets.
-**** TODO [0/2] Fraud
-***** TODO [[https://arxiv.org/abs/0801.4268][Protecting Spreadsheets Against Fraud]]
+**** TODO [1/2] Fraud
+***** DONE [[https://arxiv.org/abs/0801.4268][Protecting Spreadsheets Against Fraud]]
+Software Development is generally a multi-person effort, while Spreadsheet
+Development is typically a single-person process. This makes controlling or
+auditing from inside much harder. Also software differentiates between data and
+"program", which is not seen in spreadsheets.
+
+Proposes 4 techniques to protect against fraud:
+
+****** Review and Inspection
+- Reviews and inspections are the most effective error detection steps
+- Line-by-line reviewing can't be effectively translated to spreadsheets
+- Separating data and logic significantly improves detection rates and reviewing
+  time
+****** Testing
+- Dijkstra: "testing can only show the presence of faults, but never their
+  absence"
+- Property-based testing might be more effective
+- The integration of data and code makes it that any change to the input data might lead to a change to the program 
+- Thus for effective testing for fraud the following are necessary:
+  - physical separation of data from code
+  - separation of changes to data from changes in code
+****** Assertions
+- Assertions in essence are property-checks
+- Asserting input intermediate, and output "real" (as opposed to test) data
+- Deviations point to errors in the model or input data
+****** Authentification
+- Hash the program portion to prevent unauthorized changes
+- Requires strong physical separation of data from code
 ***** TODO [[https://arxiv.org/abs/0910.2048][The Role of Spreadsheets in the Allied Irish Bank / Allfirst Currency Trading Fraud]]
 **** TODO [0/1] Interpretation
 ***** TODO [[https://arxiv.org/abs/0801.1856v1][Interpretation as a factor in understanding flawed spreadsheets]]
@@ -133,11 +160,11 @@ spreadsheet results. Found that:
 **** TODO [[Documenting Spreadsheets][Documenting Spreadsheets]]
 **** TODO [[https://arxiv.org/abs/1011.1021][What's the point of documentation?]]
 **** TODO [[https://arxiv.org/abs/0908.1187][Documenting Spreadsheets with Pseudo-Code: an Exercise with Cash-Flow and Loans]]
-*** TODO [1/7] Spreadsheet Computation
+*** TODO [2/7] Spreadsheet Computation
 **** TODO [[https://web.engr.oregonstate.edu/~erwig/papers/SpreadsheetProgramming_ECSE09.pdf][Spreadsheets Programming]]
-**** TODO [[http://dl.acm.org/citation.cfm?id=1194878][Spreadsheet functional programming]]
+**** DONE [[http://dl.acm.org/citation.cfm?id=1194878][Spreadsheet functional programming]]
 Presents Haskell-Excel inter-op as an alternative to spreadsheet programming
-languages or Excel Lambda functions. Has refrences worth reading.
+languages or Excel Lambda functions. Has references worth reading.
 **** TODO [[https://dl.acm.org/doi/10.5555/968486.968487][Forms/3: A first-order visual language to explore the boundaries of the spreadsheet paradigm]]
 **** TODO [[https://dl.acm.org/doi/10.1145/1370847.1370867][Implementing function spreadsheets]]
 **** TODO [[https://www.rittmanmead.com/blog/2005/10/looking-back-at-lotus-improv/][Looking Back at Lotus Improv]]
