@@ -136,6 +136,8 @@ spreadsheet results. Found that:
 *** TODO [1/7] Spreadsheet Computation
 **** TODO [[https://web.engr.oregonstate.edu/~erwig/papers/SpreadsheetProgramming_ECSE09.pdf][Spreadsheets Programming]]
 **** TODO [[http://dl.acm.org/citation.cfm?id=1194878][Spreadsheet functional programming]]
+Presents Haskell-Excel inter-op as an alternative to spreadsheet programming
+languages or Excel Lambda functions. Has refrences worth reading.
 **** TODO [[https://dl.acm.org/doi/10.5555/968486.968487][Forms/3: A first-order visual language to explore the boundaries of the spreadsheet paradigm]]
 **** TODO [[https://dl.acm.org/doi/10.1145/1370847.1370867][Implementing function spreadsheets]]
 **** TODO [[https://www.rittmanmead.com/blog/2005/10/looking-back-at-lotus-improv/][Looking Back at Lotus Improv]]
