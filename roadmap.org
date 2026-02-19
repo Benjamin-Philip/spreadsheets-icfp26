@@ -183,8 +183,41 @@ Talks about the role of spreadsheets in the global financial system, and the ris
 **** TODO [[Documenting Spreadsheets][Documenting Spreadsheets]]
 **** TODO [[https://arxiv.org/abs/1011.1021][What's the point of documentation?]]
 **** TODO [[https://arxiv.org/abs/0908.1187][Documenting Spreadsheets with Pseudo-Code: an Exercise with Cash-Flow and Loans]]
-*** TODO [4/8] Spreadsheet Computation
-**** TODO [[https://web.engr.oregonstate.edu/~erwig/papers/SpreadsheetProgramming_ECSE09.pdf][Spreadsheets Programming]]
+*** TODO [5/8] Spreadsheet Computation
+**** DONE [[https://web.engr.oregonstate.edu/~erwig/papers/SpreadsheetProgramming_ECSE09.pdf][Spreadsheets Programming]]
+***** Cells
+- A spreadsheet is composed of cells
+- Cells addressing can be A1-style, R1C1-style, or named addresses
+- Cell references can be relative or absolute 
+- Types of cell:
+  - Labels - constants not referenced anywhere else
+  - Inputs - constants referenced elsewhere
+  - Formulas - cells that constitute the spreadsheet program
+***** Landscape of Spreadsheet Systems
+- VisiCalc first introduced WYSIWYG spreadsheets
+- Lotus 1-2-3, Borland Quattro, and MS Excel had the same effect
+- Lotus Improv was the first attempt to separate model and data
+- Forms/3 pushes the limits of visual programming along with CoreCalc
+***** Spreadsheet Research
+****** Errors
+- Repeats the Panko-Halverson taxonomy
+- Quantitative - incorrect results
+- Qualitative - poor spreadsheet design and format
+****** Design and Maintenance
+- "Model Admins" like IT or Database Admins
+- Adoption of organisational standards
+- Automated spreadsheet audit software
+- Spreadsheet education should focus on design and maintenance instead of
+  features
+- Separate model and data
+- ViTSL and Gencel introduce modularity and abstractions
+****** Checking, Testing and Debugging
+- Consistency checkers like UCheck are useful
+- Effective unit testing is difficult, and can give a sense of undue confidence
+  if done incorrectly
+- Forms/3's What You See Is What You Test methodology makes unit testing easier
+- "Help Me Test" can generate test cases
+- GoalDebug, a spreadsheet debugger works by defining assertions for a cell
 **** DONE [[http://dl.acm.org/citation.cfm?id=1194878][Spreadsheet functional programming]]
 Presents Haskell-Excel inter-op as an alternative to spreadsheet programming
 languages or Excel Lambda functions. Has references worth reading.
